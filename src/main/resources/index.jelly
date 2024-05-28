@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  This plugin provides the <a href="https://commons.apache.org/proper/commons-compress/">Commons Compress</a> API for other plugins.
+</div>
