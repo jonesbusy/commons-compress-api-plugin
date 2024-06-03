@@ -11,7 +11,7 @@
 
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>commons-compress-api</artifactId>
-  <version>1.26.1-2</version>
+  <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
 
   <name>Commons Compress API</name>
@@ -28,12 +28,12 @@
   <scm>
     <connection>scm:git:https://github.com/${gitHubRepo}.git</connection>
     <developerConnection>scm:git:git@github.com:${gitHubRepo}.git</developerConnection>
-    <tag>commons-compress-api-1.26.1-2</tag>
+    <tag>${scmTag}</tag>
     <url>https://github.com/${gitHubRepo}</url>
   </scm>
 
   <properties>
-    <revision>1.26.1-2</revision>
+    <revision>1.26.1-3</revision>
     <changelist>-SNAPSHOT</changelist>
     <jenkins.version>2.361.4</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
